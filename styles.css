@@ -1,0 +1,61 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+#topofpage{
+  background-color: inherit;
+}
+#photographywork{
+  background-color: inherit;
+}
+#digitalwork{
+  background-color: inherit;
+}
+#videowork{
+  background-color: inherit;
+}
+#cadrework{
+  background-color: inherit;
+}
+#codework{
+  background-color: inherit;
+}
+#naturephotography{
+  background-color: inherit;
+}
+#travelphotography{
+  background-color: inherit;
+}
+#urbanphotography{
+  background-color: inherit;
+}
+#topofpage-photography{
+  background-color: inherit;
+}
+h1{
+  font-family: sans-serif;
+  font-size: 50px;
+  font-style: normal;
+}
+h2{
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: normal;
+}
+a{
+  font-family: sans-serif;
+  font-size: 35px;
+  font-style: normal;
+}
+a:visited{
+  background color: rgb(96, 223, 229);
+  color: rgb(66, 9, 67);
+  padding: 20px, 25px;
+}
+a:hover{
+  background-color: black;
+  color: red;
+}
