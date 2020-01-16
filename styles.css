@@ -5,35 +5,22 @@ html, body {
 html{
   scroll-behavior: smooth;
 }
-#topofpage{
-  background-color: inherit;
+div.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: inline-start;
+  width: 400px;
 }
-#photographywork{
-  background-color: inherit;
+div.gallery:hover {
+  border: 1px solid #777;
 }
-#digitalwork{
-  background-color: inherit;
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
-#videowork{
-  background-color: inherit;
-}
-#cadrework{
-  background-color: inherit;
-}
-#codework{
-  background-color: inherit;
-}
-#naturephotography{
-  background-color: inherit;
-}
-#travelphotography{
-  background-color: inherit;
-}
-#urbanphotography{
-  background-color: inherit;
-}
-#topofpage-photography{
-  background-color: inherit;
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 h1{
   font-family: sans-serif;
