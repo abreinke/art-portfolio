@@ -59,3 +59,10 @@ a:hover{
   background-color: black;
   color: red;
 }
+code-work.styles{
+  image {
+    max-width: 500px;
+    max-height: 375px;
+    image-resolution: 100%;
+  }
+}
