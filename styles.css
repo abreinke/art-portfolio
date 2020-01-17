@@ -8,11 +8,14 @@ html{
 div.gallery{
   border: none;
   width: auto;
-  justify-content: space-around;
+  }
+div.styles {
+  ju
 }
 div.gallery img {
   width: 300px;
   height: auto;
+  align-items: center;
   }
 div.desc {
   padding: 0;
@@ -40,6 +43,7 @@ a{
   font-family: sans-serif;
   font-size: 35px;
   font-style: normal;
+  justify: center;
 }
 a:visited{
   background color: rgb(96, 223, 229);
@@ -57,6 +61,6 @@ code-work.styles{
     display: flex;
     }
 }
-link{
-  justify-content: flex-start;
+li.styles{
+  justify-content: center;
 }
