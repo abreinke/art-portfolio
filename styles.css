@@ -6,21 +6,25 @@ html{
   scroll-behavior: smooth;
 }
 div.gallery{
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: inline-start;
-  width: 400px;
-}
-div.gallery:hover {
-  border: 1px solid #777;
+  border: none;
+  width: auto;
+  justify-content: space-around;
 }
 div.gallery img {
-  width: 100%;
+  width: 300px;
   height: auto;
-}
+  }
 div.desc {
-  padding: 15px;
-  text-align: center;
+  padding: 0;
+  text-align: below;
+  font-size: 25px;
+}
+*{ box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: inherit;
+  width: 10%;
 }
 h1{
   font-family: sans-serif;
@@ -52,4 +56,7 @@ code-work.styles{
     max-height: 375px;
     display: flex;
     }
+}
+link{
+  justify-content: flex-start;
 }
