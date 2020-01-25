@@ -5,29 +5,31 @@ html, body {
 html{
   scroll-behavior: smooth;
 }
-div.gallery{
-  border: none;
-  width: auto;
-  }
-div.styles {
-  ju
-}
-div.gallery img {
-  width: 300px;
-  height: auto;
-  align-items: center;
-  }
-div.desc {
+.sidebar{
+  margin: 0;
   padding: 0;
-  text-align: below;
-  font-size: 25px;
+  width: 200;
+  background-color: rgb(240, 240, 240);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
-*{ box-sizing: border-box;
+.sidebar a{
+  display: block;
+  color: inherit;
+  padding: 16px;
+  text-decoration: none;
 }
-.responsive {
-  padding: 0 6px;
-  float: inherit;
-  width: 10%;
+
+sidebar a.active{
+  background-color: rgb(186, 228, 229);
+  color: black;
+}
+
+div.content{
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
 }
 h1{
   font-family: sans-serif;
@@ -43,8 +45,8 @@ a{
   font-family: sans-serif;
   font-size: 35px;
   font-style: normal;
-  justify: center;
-}
+
+  }
 a:visited{
   background color: rgb(96, 223, 229);
   color: rgb(66, 9, 67);
@@ -53,14 +55,4 @@ a:visited{
 a:hover{
   background-color: black;
   color: red;
-}
-code-work.styles{
-  image {
-    max-width: 500px;
-    max-height: 375px;
-    display: flex;
-    }
-}
-li.styles{
-  justify-content: center;
 }
