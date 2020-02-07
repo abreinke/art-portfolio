@@ -1,58 +1,148 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: inherit;
 }
-html{
-  scroll-behavior: smooth;
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
 }
-.sidebar{
+
+div.gallery img{
+  width: 250px;
+  height: 250px;
+}
+
+div.desc{
+  padding: 10px;
+  text-align: left;
+  fill: rgb(100, 100, 100);
+  }
+
+h1 {
+	font-weight: normal;
+	font-style: normal;
+	font-family: sans-serif;
+	font-size: 35px;
+}
+
+h2{
+  font-weight: normal;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+a {
+  font-style: normal;
+  font-weight: normal;
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+p {
+	font-weight: normal;
+	font-style: normal;
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: justify;
+}
+a {
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200;
-  background-color: rgb(240, 240, 240);
-  position: fixed;
-  height: 100%;
-  overflow: auto;
+  overflow: hidden;
+  background-color: #333;
 }
-.sidebar a{
+
+li {
+  float: left;
+}
+
+li a {
   display: block;
-  color: inherit;
-  padding: 16px;
+  color: white;
+  text-align: justify;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-sidebar a.active{
-  background-color: rgb(186, 228, 229);
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
-div.content{
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
 }
-h1{
-  font-family: sans-serif;
-  font-size: 50px;
-  font-style: normal;
-}
-h2{
-  font-family: sans-serif;
-  font-size: 40px;
-  font-style: normal;
-}
-a{
-  font-family: sans-serif;
-  font-size: 35px;
-  font-style: normal;
 
-  }
-a:visited{
-  background color: rgb(96, 223, 229);
-  color: rgb(66, 9, 67);
-  padding: 20px, 25px;
-}
-a:hover{
-  background-color: black;
-  color: red;
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
