@@ -3,6 +3,11 @@ html, body {
   padding: 0;
   background-color: inherit;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -145,4 +150,46 @@ li a {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+nav, scroll-container {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+}
+nav {
+  width: 100%;
+  padding: 25px;
+  fill: black;
+  border: 20px solid black;
+}
+
+scroll-container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+scroll-page {
+  display: flex;
+  justify-content: left;
+  height: 100%;
+  fill: inherit;
+}
+
+#naturephotography{
+  height: auto;
+  background-color: inherit;
+}
+
+#travelphotography{
+  height: auto;
+  background-color: inherit;
+}
+
+#urbanphotography{
+  height: auto;
+  background-color: inherit;
 }
